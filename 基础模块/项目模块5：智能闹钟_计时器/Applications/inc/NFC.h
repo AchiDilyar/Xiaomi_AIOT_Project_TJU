@@ -1,0 +1,1 @@
+// void ms532_init(uint32_t i2c_periph, uint8_t i2c_addr);

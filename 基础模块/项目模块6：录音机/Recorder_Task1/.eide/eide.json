@@ -1,0 +1,249 @@
+{
+  "name": "clock_demo",
+  "type": "ARM",
+  "dependenceList": [],
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "app",
+        "files": [
+          {
+            "path": "Applications/src/main.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "BSP",
+        "files": [
+          {
+            "path": "Applications/src/e4.c"
+          },
+          {
+            "path": "Applications/src/gd32f4xx_it.c"
+          },
+          {
+            "path": "Applications/src/ht16k33.c"
+          },
+          {
+            "path": "Applications/src/i2c.c"
+          },
+          {
+            "path": "Applications/src/NFC.c"
+          },
+          {
+            "path": "Applications/src/systick.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "CMSIS",
+        "files": [
+          {
+            "path": "CMSIS/GD32F4xx/Source/system_gd32f4xx.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "FreeRTOS",
+        "files": [
+          {
+            "path": "Source/croutine.c"
+          },
+          {
+            "path": "Source/event_groups.c"
+          },
+          {
+            "path": "Source/list.c"
+          },
+          {
+            "path": "Source/portable/GCC/ARM_CM4F/port.c"
+          },
+          {
+            "path": "Source/portable/MemMang/heap_4.c"
+          },
+          {
+            "path": "Source/queue.c"
+          },
+          {
+            "path": "Source/stream_buffer.c"
+          },
+          {
+            "path": "Source/tasks.c"
+          },
+          {
+            "path": "Source/timers.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Peripherals",
+        "files": [
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_adc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_can.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_crc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_ctc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_dac.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_dbg.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_dci.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_dma.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_enet.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_exmc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_exti.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_fmc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_fwdgt.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_gpio.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_i2c.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_ipa.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_iref.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_misc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_pmu.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_rcu.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_rtc.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_sdio.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_spi.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_syscfg.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_timer.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_tli.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_trng.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_usart.c"
+          },
+          {
+            "path": "GD32F450Z_Peripherals/Source/gd32f4xx_wwdgt.c"
+          }
+        ],
+        "folders": []
+      },
+      {
+        "name": "Startup",
+        "files": [
+          {
+            "path": "startup_gd32f450.S"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "miscInfo": {
+    "uid": "7a80dcf11accc1ba103a6ff8105fede3"
+  },
+  "targets": {
+    "Debug": {
+      "excludeList": [],
+      "toolchain": "GCC",
+      "compileConfig": {
+        "cpuType": "Cortex-M4",
+        "floatingPointHardware": "single",
+        "scatterFilePath": "gd32f4xx_flash.ld",
+        "useCustomScatterFile": true,
+        "storageLayout": {
+          "RAM": [],
+          "ROM": []
+        },
+        "options": "null"
+      },
+      "uploader": "OpenOCD",
+      "uploadConfig": {
+        "bin": "",
+        "target": "stm32f4x",
+        "interface": "cmsis-dap",
+        "baseAddr": "0x08000000"
+      },
+      "uploadConfigMap": {
+        "JLink": {
+          "bin": "",
+          "baseAddr": "",
+          "cpuInfo": {
+            "vendor": "null",
+            "cpuName": "null"
+          },
+          "proType": 1,
+          "speed": 8000,
+          "otherCmds": ""
+        }
+      },
+      "custom_dep": {
+        "name": "default",
+        "incList": [
+          "CMSIS",
+          "CMSIS/GD32F4xx/Include",
+          "Source/include",
+          "Source/portable/GCC/ARM_CM4F",
+          "Applications/inc",
+          "GD32F450Z_Peripherals/Include"
+        ],
+        "libList": [],
+        "defineList": [
+          "GD32F450",
+          "USE_STDPERIPH_DRIVER"
+        ]
+      }
+    }
+  },
+  "version": "3.4"
+}
