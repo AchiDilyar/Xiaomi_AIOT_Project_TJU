@@ -1,0 +1,10 @@
+
+
+# Practical Training Project Based on the Xiaomi AIoT Platform
+## Project Overview
+The Xiaomi AIoT development platform is an innovative embedded intelligent development platform featuring a modular design to enable efficient and flexible construction of customized smart hardware systems. The platform consists of a mainboard and subboards. The mainboard handles fundamental functions such as power supply, connectivity, and communication, while the subboards carry various components and chip modules to implement specific product functionalities. Acting as the base for the subboards, the mainboard connects to them via a magnetic snap mechanism. Users can achieve modular design by combining different subboards according to their needs, allowing for flexible customization and expansion. 
+By studying the fundamentals of embedded systems, microcontrollers, and communication principles, our group became familiar with the principles and operations of the Xiaomi AIoT development platform (also known as the Xiaomi AIoT Training Box). We conducted in-depth exploration and research on the chips, driver principles, and communication protocols of the U1 and U2 computing subboards, seven sensor subboards, and four actuator subboards. We successfully implemented all seven basic task modules and completed their functional testing.
+Building on this foundation, our group designed and implemented a practical innovation scenario: the Smart Classroom Control Hub. The smart classroom system is structured around one main menu mode and nine sub-modes. The main menu mode switches between different sub-modes using buttons 1 through 9. Upon entering a corresponding sub-mode, distinct logical control operations are executed. Users can return to the main menu mode to navigate to other modes and control additional devices. 
+Ultimately, our group developed a Smart Classroom Control Hub capable of manual button control, automatic control, NFC control, and one-click shutdown of all devices. This system can be further extended with additional modes to operate and control a wider range of smart devices.
+
+## Completion Date: 2024/6/28
